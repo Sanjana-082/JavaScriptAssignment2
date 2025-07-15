@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smoothie Machine</title>
+  <link rel="stylesheet" href="style.css">
+   <script src="index.js" defer></script>
+
+</head>
+<body>
+  <h1>Order your drink here!</h1>
+  <form id="smoothieForm">
+    <label for="size"> Size:</label>
+    <select id="size">
+      <option value="Small">Small </option>
+      <option value="Medium">Medium</option>
+      <option value="Large">Large</option>
+    </select>
+
+    <br><br>
+
+    <label>Choose Base:</label><br>
+    <input type="radio" name="base" value="Milk" checked> Milk<br>
+    <input type="radio" name="base" value="Soy Milk"> Soy Milk<br>
+    <input type="radio" name="base" value="Almond Milk"> Almond Milk<br>
+    <input type="radio" name="base" value="orange  Juice "> Orange  juice <br>
+     <input type="radio" name="base" value="Apple  Juice "> Apple  juice <br>
+      <input type="radio" name="base" value="Coconut water  "> Coconut water <br>
+
+    <br>
+
+    <label>Select Fruits:</label><br>
+    <input type="checkbox" value="Banana"> Banana<br>
+    <input type="checkbox" value="Strawberry"> Strawberry<br>
+    <input type="checkbox" value="Mango"> Mango<br>
+    <input type="checkbox" value="Spinach"> Spinach<br>
+    <input type="checkbox" value="Blueberry"> Blueberry<br>
+    <input type="checkbox" value="Kiwi"> Kiwi<br>
+    <input type="checkbox" value="Dragon fruit"> Dragon fruit<br>
+    <input type="checkbox" value="Raspberry"> Raspberry<br>
+    <input type="checkbox" value="Pineapple"> Pineapple<br>
+
+    <br>
+
+    <label for="extras">Healthy Protein source :</label><br>
+    <input type="checkbox" value="Protein Powder"> Protein Powder<br>
+    <input type="checkbox" value="Chia Seeds"> Chia Seeds<br>
+    <input type="checkbox" value="Flex Seeds"> Flex Seeds<br>
+    <input type="checkbox" value="Hemp Seeds"> Hemp Seeds<br>
+
+
+    <br>
+    <button type="button" onclick="orderSmoothie()">Confirm Order</button>
+  </form>
+
+  <div id="output"><img src="download.jpeg"></div>
+
+</body>
+</html>
